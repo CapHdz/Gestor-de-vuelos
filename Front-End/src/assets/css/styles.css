@@ -1,0 +1,31 @@
+.bg-main{
+    background-color: #172344;
+}
+.color-main{
+    color: #172344;
+}
+body{
+    height: 100vh;
+}
+.rutas{
+    width: 20vw;
+    color: white;
+}
+.rutas:hover{
+    color: #172344;
+}
+.rutas:hover {
+    border: 1px solid #172344;
+}
+@media (max-width: 500px) {
+    .rutas{
+        width: 90vw;
+        color: white;
+    }
+    .ruta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
